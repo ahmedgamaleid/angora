@@ -1,0 +1,217 @@
+.extra p{
+font-size: 18px;
+line-height: 24.5px;
+font-family: 'Open Sans', sans-serif;
+}
+.extra h2{
+    font-size: 38px;
+    line-height: 38.5px;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+    hr:hover{
+        width: 7%;
+        transition: transform(5s);
+        
+        }
+ .extra{
+ font-family: 'Open Sans', sans-serif;
+   color: #000;
+font-size: 40px;
+line-height: 44px;
+ width: 100%;
+ }
+/* body */
+body{
+    /* font-family: 'Poppins', sans-serif; */
+}
+/* nav */
+.logo{
+    font-size: 3rem ;
+}
+/* home */
+.big{
+    background-image: url(../images/slideshow-1.jpg);
+    width:  100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.big1{
+    background-image: url(../images/slideshow-2.jpg);
+    width:  100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.big2{
+    background-image: url(../images/slideshow-3.jpg);
+    width:  100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+   
+}
+
+.home-content h2{
+    align:center;
+     vertical-align:middle;
+   
+   
+}
+
+
+
+
+.scroll{
+
+    width: 50px;
+    height: 50px;
+   
+    position: absolute;
+    top: 80%;
+left: 50%;
+transform: translateX(-50%);
+animation: scroll 3s infinite;
+}
+
+
+
+@keyframes scroll {
+
+    0%{  top: 80%;}
+    
+    10%{  top: 82%;}
+    
+    20%{  top: 85%;}
+    
+    30%{  top: 87%;}
+    
+    40%{  top: 88%;}
+
+
+    50%{  top: 90%;}
+    
+   60%{  top: 88%;}
+    
+    70%{  top: 87%;}
+
+    
+    80%{  top: 85%;}
+    
+    90%{  top: 83%;}
+    
+    100%{  top: 80%;}
+}
+  /* work */
+  .work-item img{
+    width: 100%;
+    transition: all 1s;
+     }
+     .work-item {
+      position: relative;
+      overflow: hidden;
+         }
+    
+     .work-layer{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+    background-color: rgb(231, 20, 20);
+    opacity: 0;
+    transition: all 1s;
+    
+    }
+    
+    .work-item:hover .work-layer{
+        opacity: 1;
+    
+           }
+    
+           .work-item:hover img{
+          transform: scale(1.2);
+        
+               }
+    
+    
+               .layer-work{
+                position: absolute;
+                top: 100%;
+                transition: all 1s;
+    
+    transform: translateY(-50%);
+               }
+    
+               .work-item:hover .layer-work{
+                background-color: rgb(231, 20, 20);
+                top: 50%;
+                     }
+    
+
+
+/*services  */
+ .ahmed i{
+    color:orangered;
+ }
+.ahmed :hover h5{
+    color: orangered;
+}
+
+
+.li img{
+width: 15%;
+height: 15%;
+
+
+}
+
+
+/* client */
+
+
+.mego p::before {
+    content: "<i class="fa-sharp fa-solid fa-quote-right d-block py-3 fs-2 text-dark"></i>";
+  }
+
+
+
+.parent{
+    width:  100%;
+    height: 70vh;
+    background-image: url(../images/dotted-map.png);
+   
+}
+
+
+.footer{
+    background-image: url(../images/dotted-map.png);
+}
+
+
+
+.footer:hover button{
+color: orangered;
+border-color: orangered;
+background-color: transparent;
+}
+
+
+
+
+.demo{
+    position: absolute;
+    left:0%;
+    top:30%;
+}
+footer:hover button{
+    color: orangered;
+}
+footer{
+    position: relative;
+}
+.bes{
+position: absolute;
+top: -477px;
+left: 560px;
+}
